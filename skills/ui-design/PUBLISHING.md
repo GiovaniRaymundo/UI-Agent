@@ -1,8 +1,14 @@
 # Publicar la skill en skills.sh
 
+> **Estado actual:** publicada en [github.com/GiovaniRaymundo/UI-Agent](https://github.com/GiovaniRaymundo/UI-Agent) y [skills.sh/giovaniraymundo/ui-agent/ui-design](https://skills.sh/giovaniraymundo/ui-agent/ui-design). El repo usa la estructura `skills/ui-design/` (Opción B) y la skill se instala con:
+> ```bash
+> npx skills add GiovaniRaymundo/UI-Agent --skill ui-design
+> ```
+> Las notas de nombres de abajo quedan como referencia para futuras publicaciones.
+
 ## 1. Nombre del repositorio
 
-Recomendado: **`ui-design-atlas`**
+Para una publicación nueva, un nombre recomendado es **`ui-design-atlas`**:
 
 - Es único y descriptivo: un atlas de principios, patrones y reglas de UI.
 - No compite con los muchos repositorios llamados `ui-design` o `interface-craft` que ya existen en skills.sh.

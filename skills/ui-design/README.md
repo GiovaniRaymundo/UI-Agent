@@ -5,10 +5,10 @@ Skill de diseño de interfaces para agentes de código. Convierte principios de 
 ## Instalar
 
 ```bash
-npx skills add <owner>/ui-design-atlas --skill ui-design
+npx skills add GiovaniRaymundo/UI-Agent --skill ui-design
 ```
 
-Sustituye `<owner>` por tu usuario u organización de GitHub. También puedes instalarla desde una ruta local:
+Publicada en [skills.sh/giovaniraymundo/ui-agent/ui-design](https://skills.sh/giovaniraymundo/ui-agent/ui-design). También puedes instalarla desde una ruta local:
 
 ```bash
 npx skills add ./ruta/a/esta/carpeta --skill ui-design
