@@ -1,0 +1,29 @@
+{
+  "baseUrl": "http://localhost:3000",
+  "tolerance": 2,
+  "viewports": [
+    { "name": "mobile", "width": 360, "height": 800 },
+    { "name": "tablet", "width": 768, "height": 1024 },
+    { "name": "desktop", "width": 1280, "height": 900 }
+  ],
+  "pages": [
+    {
+      "name": "admin-pcs",
+      "path": "/admin/pcs",
+      "states": [
+        {
+          "name": "loaded",
+          "waitFor": "[data-skeleton-target='admin-pcs']",
+          "settle": 800
+        },
+        {
+          "name": "loading",
+          "hold": ["**/*?_rsc=*"],
+          "holdMs": 1500,
+          "waitFor": "[data-skeleton='admin-pcs']",
+          "settle": 0
+        }
+      ]
+    }
+  ]
+}
