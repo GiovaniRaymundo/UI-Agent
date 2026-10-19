@@ -125,6 +125,8 @@ node .opencode/skills/ui-design/scripts/skeleton-audit.mjs \
 5. Para texto, replica líneas y `line-height`: una barra de 16 px no representa un párrafo de 4 líneas.
 6. Vuelve a correr el audit; no confíes en la primera medición.
 
+> **Nota para Tailwind v4:** no escribas el placeholder con `<` dentro de una clase arbitraria (`h-[var(--sk-<id>-h)]`). Tailwind escanea también los `.md` y los reportes generados, y produce CSS inválido (`var(--sk-<id>-h)`). Usa un placeholder sin ángulos, por ejemplo `h-[var(--sk-ID-h)]`, y sustituye `ID` por el id real.
+
 ## 7. Anti-patrones
 
 - Un solo skeleton genérico para todas las páginas.
